@@ -1,8 +1,8 @@
 
 main {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-columns: repeat(25, 4%);
+  grid-template-rows: repeat(25, 4%);
   border: solid black;
   background: linear-gradient(to bottom left, #fff3cc, #4d3319);
   font-family: optimusprinceps;
@@ -12,12 +12,35 @@ main > * {
   border: 1px solid white;
 }
 
-.box2 {
-  grid-row-start: 2;
-  grid-row-end: 2;
+.maximus{
+  grid-column: 2/6;
+  grid-row: 10/13;
+  background-color: white;
 }
 
-.box5 {
-  grid-row-start: 4;
-  grid-row-end: 8;
+.enemies{
+grid-column: 2/6;
+grid-row: 14/15;
+}
+
+.vid{
+  grid-row: 5/8;
+  grid-column: 7/8;
+}
+
+.type{
+  word-wrap: break-word;
+  grid-column: 20/25;
+  grid-row: 5/15;
+}
+
+.legio{
+  grid-column: 2/6;
+  grid-row: 17/26;
+}
+
+.surrender {
+grid-column: 20/25;
+grid-row: 16/25;
+background-color: white;
 }
