@@ -1,0 +1,23 @@
+
+main {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  border: solid black;
+  background: linear-gradient(to bottom left, #fff3cc, #4d3319);
+  font-family: optimusprinceps;
+}
+
+main > * {
+  border: 1px solid white;
+}
+
+.box2 {
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.box5 {
+  grid-row-start: 4;
+  grid-row-end: 8;
+}
