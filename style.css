@@ -1,0 +1,11 @@
+
+.container {
+  display: flex;
+  border: solid black;
+  justify-content: space-around;
+}
+
+h1{
+border: solid pink;
+padding: 100px;
+}
