@@ -1,0 +1,51 @@
+
+main {
+  border: solid black;
+  background: linear-gradient(to bottom left, #fff3cc, #4d3319);
+  font-family: optimusprinceps;
+}
+
+.container{
+  margin: 50px 40px;
+  display: grid;
+  grid-template-columns: repeat(25, 4%);
+  grid-template-rows: repeat(25, 4%);
+  border: solid crimson;
+}
+
+.container > * {
+  border: 1px solid white;
+}
+
+.maximus{
+  grid-column: 2/6;
+  grid-row: 10/13;
+  background-color: white;
+}
+
+.enemies{
+grid-column: 2/6;
+grid-row: 14/15;
+}
+
+.vid{
+  grid-row: 5/8;
+  grid-column: 7/8;
+}
+
+.type{
+  word-wrap: break-word;
+  grid-column: 20/25;
+  grid-row: 5/15;
+}
+
+.legio{
+  grid-column: 2/6;
+  grid-row: 17/26;
+}
+
+.surrender {
+grid-column: 20/25;
+grid-row: 16/25;
+background-color: white;
+}
