@@ -4,29 +4,36 @@ main {
   border: solid black;
   justify-content: space-around;
   flex-wrap: wrap;
+  background: linear-gradient(to bottom left, #fff3cc, #4d3319);
 }
 
 .box1 {
 border: solid pink;
 padding: 75px;
-margin-top: 30px;
+margin-top: 70px;
+margin-bottom: 10px;
+background-color: white;
 }
 
 .box2 {
 border: solid pink;
 padding: 75px;
-margin-top: 30px;
+margin-top: 70px;
+margin-bottom: 10px;
 }
 
 .box3 {
 border: solid pink;
 padding: 75px;
-margin-top: 30px;
+height: 100px;
+margin-top:70px;
+margin-bottom: 10px;
 }
 
 .box4 {
 border: solid pink;
 padding: 75px;
+background-color: white;
 }
 
 .box5 {
